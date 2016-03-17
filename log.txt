@@ -1,0 +1,589 @@
+Microsoft (R) Build Engine version 14.0.23107.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+E:\CxCache\MsBuild.Corext.14.0.23107.11\Path\..\v14.0\bin\msbuild.exe /nr:false /v:diag Test.proj
+Build started 3/8/2016 4:53:24 AM.
+Environment at start of build:
+ALLOW_DLL_REFERENCES = 1
+ALLUSERSPROFILE = C:\ProgramData
+APPDATA = C:\Users\wenbwa\AppData\Roaming
+AppendClientGoldToPath = 0
+BASEDIR = e:\src\AdsUCM
+BATCH_NMAKE = 1
+BINPLACE2_INCLUDE_FILE = e:\src\AdsUCM\build\binplace2.inc
+BINPLACE_OVERRIDE = e:\src\AdsUCM\build\binplace2.cmd
+BINPLACE_SILENT_POSTBUILD = 1
+bldPropSrc = target\distrib
+BUILDNUKE_KEEP =  e:\src\AdsUCM\.corext\gen
+BUILD_COREXT = 1
+BUILD_GENERATE_ASSEMBLY_IDENTITY = 1
+BUILD_MSBUILD_PROGRAM = E:\CxCache\MsBuild.Corext.14.0.23107.11\Path\MSBuild.cmd
+BUILD_MULTIPROCESSOR = 1
+BUILD_PATH = e:\src\AdsUCM\build\path1st;e:\src\AdsUCM\tools\path1st;e:\src\AdsUCM\.corext\gen\InPath;C:\Users\wenbwa\AppData\Local\devconsole\packages\DevConsole.Commandline\5.0.20;E:\CxCache\DotNetFxGAC.Corext.4.5.3\v4.0.30319;E:\CxCache\Corext.Build.1.2.8\InPath;PLACEHOLDER_COMPILERS;E:\CxCache\.WindowsSdk.Corext.o_CryOz-4ksYddnb34Br_A\bin\x64;E:\CxCache\.WindowsSdk.Corext.o_CryOz-4ksYddnb34Br_A\bin\x86;E:\CxCache\MsBuild.Corext.14.0.23107.11\Path;E:\CxCache\Corext.Tools.3.0.0\AMD64;E:\CxCache\Corext.Tools.3.0.0\x86;E:\CxCache\Corext.Tools.3.0.0\scripts;E:\CxCache\Corext.SourceControl.Sd.1.0.3\tools\path1st;E:\CxCache\SourceDepot.Corext.4.8.17925.1\AMD64;E:\CxCache\SourceDepot.Corext.4.8.17925.1\scripts;E:\CxCache\SourceDepot.Corext.4.8.17925.1\x86;E:\CxCache\Perl.Corext.5.10.0.2\x86\bin;E:\CxCache\RazzleBuildTools.Corext.2.2.1-beta1\AMD64;E:\CxCache\RazzleBuildTools.Corext.2.2.1-beta1\x86;E:\CxCache\RazzleBuildTools.Corext.2.2.1-beta1;C:\windows;C:\windows\System32;C:\windows\System32\WindowsPowerShell\v1.0;;E:\CxCache\Python.Corext.2.6.150;
+BUILD_POST_PROCESS = {Performing postbuild steps...}E:\CxCache\RazzleBuildTools.Corext.2.2.1-beta1\buildpost.cmd
+BUILD_PRE_PROCESS = {Performing prebuild steps...}E:\CxCache\RazzleBuildTools.Corext.2.2.1-beta1\build_pre_process.cmd
+BUILD_USE_DBB = 1
+CECHO_LEGACY = 1
+CheckinWizard = 1
+CLIENTGOLDDIRECTORY = e:\ClientGoldEnlistment
+CLIENTGOLD_PATH1ST = e:\ClientGoldEnlistment\path1st
+CodeFlowProject = bing
+CommonProgramFiles = C:\Program Files (x86)\Common Files
+CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+CommonProgramW6432 = C:\Program Files\Common Files
+COMPILER_VERSION = VC14
+COMPUTERNAME = WENBWA-WORK
+ComSpec = C:\windows\system32\cmd.exe
+COPYCMD =  /Y
+CorextAutomationRoot = E:\CxCache\BuildTracker.OnCorext.1.0.3\content\automation\v2
+corextbranch = adsucm
+COREXTBRANCH_PREFIX = //depot/dev/
+CoreXTConfig = e:\src\AdsUCM\.corext
+CorextExeVersion = 5.0.0.0
+CorextSetupComplete = 1
+CoreXTTools = E:\CxCache\Corext.Tools.3.0.0
+COREXT_BUILDTYPES_DEBUG = debug oacr vulcan verify cover doxygen
+COREXT_BUILDTYPES_OTHER = clean nuke recycle version prefix4 prefix-ps tree sourceindex setversion test
+COREXT_BUILDTYPES_RETAIL = retail release cover
+COREXT_BUILD_OPTIONS = -w -g -F -e
+COREXT_BUILD_SKIPDUPLICATEIMPORTNAME = 1
+COREXT_SOURCECONTROL = sd
+COREXT_URT_ROOT = E:\CxCache\Corext.URT.2.0.0
+COREXT_VERSION_FILE = version.htm
+COREXT_VERSION_PATH = e:\src\AdsUCM\public\inc\
+Coverage = C:\ProgramData\Coverage
+DBB_CDGPATH = e:\src\AdsUCM\public\internal\deps
+DetectBuildChangeCRC = 1047727c
+DetectBuildChangeFile = "C:\Users\wenbwa\AppData\Local\Temp\WENBWA-WORK-AdsUCM-1.tmp.crc.37bc426b-95a3-482d-9e52-8dbc6cf7d501.txt"
+DevPath = ;E:\CxCache\MsBuild.Corext.14.0.23107.11\v14.0\bin;E:\CxCache\MsBuild.Corext.14.0.23107.11\Extensions\Override\etc\TaskCopy;E:\CxCache\VisualStudio.TeamSystem.DB.Corext.10.0.0.1;E:\CxCache\VisualStudio.TeamSystem.DB.Corext.10.0.0.1\x86
+EnableNuGetPackageRestore = true
+EnlistmentRoot = e:\src\AdsUCM
+EnvironmentConfig = E:\CxCache\MsBuild.Corext.14.0.23107.11\Environment.props
+EnvironmentCustomPropsFile = E:\CxCache\MsBuild.Corext.14.0.23107.11\Environment.CoreXT.props
+EXTPATH = e:\src\AdsUCM\public\ext
+FP_NO_HOST_CHECK = NO
+HOMEDRIVE = C:
+HOMEPATH = \Users\wenbwa
+inetroot = e:\src\AdsUCM
+IRONPYTHONPATH = ;E:\CxCache\Python.Corext.2.6.150\Lib;
+LBACMD = E:\CxCache\LBA.Corext.5.5.1031.3\lba.exe
+LBA_SCRIPT_ROOT = e:\src\AdsUCM\tools\loctools\lba\scripts
+LEGACY_VARIANT = 140
+LOCALAPPDATA = C:\Users\wenbwa\AppData\Local
+LOGONSERVER = \\BJW-FE-DC-03
+MASTER_VERSION_FILE = e:\src\AdsUCM\public\inc\bldver.h
+MSBuildFrameworkToolsPath = E:\CxCache\MsBuild.Corext.14.0.23107.11\v14.0\sdk
+MSBuildLoadMicrosoftTargetsReadOnly = true
+MsBuildLocalGacPath = E:\CxCache\DotNetFxGAC.Corext.4.5.3\v4.0.30319
+MSBuildPath = C:\Program Files (x86)\MSBuild\14.0\Bin
+MsBuildToolset = 140
+MSBuildToolsPath_140 = E:\CxCache\MsBuild.Corext.14.0.23107.11\v14.0\bin
+MSBUILD_BUILD_ARGS =  /clp:ShowCommandline /m:4 /nr:false  /clp:Summary
+MSBUILD_PROCESSES = 4
+MSBUILD_REUSE = false
+MultipleSmartCardsNextDetection = 08/01/2015 03:32:22
+NO_DEPENDENCY_CHECK = 1
+NO_OACR = 1
+NTMAKEENV = E:\CxCache\RazzleBuildTools.Corext.2.2.1-beta1
+NugetMachineInstallRoot = E:\CxCache
+NUMBER_OF_PROCESSORS = 4
+OACRINI = e:\src\AdsUCM\tools\oacr\oacr.ini
+OACRMINBARINI = E:\CxCache\.OACR.Corext.iczWpqTl2iQx2mzrPDZWHQ\custom\sdl\v6.0\oacrminbar.ini
+OACR_DEFAULT_PROJECT = CoreXT_SWI
+OACR_INC = E:\CxCache\.OACR.Corext.iczWpqTl2iQx2mzrPDZWHQ\AMD64\inc
+OACR_PATHS = E:\CxCache\.OACR.Corext.iczWpqTl2iQx2mzrPDZWHQ\AMD64
+OACR_ROOT = E:\CxCache\.OACR.Corext.iczWpqTl2iQx2mzrPDZWHQ\AMD64
+OACR_SDL_VERSION = 6.0
+OACR_TEMP = e:\src\AdsUCM\OACRTemp
+OACR_VER = 3.6.30318.1
+OACR_VERSION_ROOT = E:\CxCache\.OACR.Corext.iczWpqTl2iQx2mzrPDZWHQ
+OBJECT_ROOT = e:\src\AdsUCM
+OS = Windows_NT
+OSVERMAJOR = 6
+OSVERMINOR = 3
+PackageAddressGenDir = e:\src\AdsUCM\.corext\gen
+PACKAGE_CACHE_DIRECTORY = E:\PackageCache
+Path = e:\ClientGoldEnlistment\path1st;e:\src\AdsUCM\build\path1st;e:\src\AdsUCM\tools\path1st;e:\src\AdsUCM\.corext\gen\InPath;C:\Users\wenbwa\AppData\Local\devconsole\packages\DevConsole.Commandline\5.0.20;E:\CxCache\DotNetFxGAC.Corext.4.5.3\v4.0.30319;E:\CxCache\Corext.Build.1.2.8\InPath;PLACEHOLDER_COMPILERS;E:\CxCache\.WindowsSdk.Corext.o_CryOz-4ksYddnb34Br_A\bin\x64;E:\CxCache\.WindowsSdk.Corext.o_CryOz-4ksYddnb34Br_A\bin\x86;E:\CxCache\MsBuild.Corext.14.0.23107.11\Path;E:\CxCache\Corext.Tools.3.0.0\AMD64;E:\CxCache\Corext.Tools.3.0.0\x86;E:\CxCache\Corext.Tools.3.0.0\scripts;E:\CxCache\Corext.SourceControl.Sd.1.0.3\tools\path1st;E:\CxCache\SourceDepot.Corext.4.8.17925.1\AMD64;E:\CxCache\SourceDepot.Corext.4.8.17925.1\scripts;E:\CxCache\SourceDepot.Corext.4.8.17925.1\x86;E:\CxCache\Perl.Corext.5.10.0.2\x86\bin;E:\CxCache\RazzleBuildTools.Corext.2.2.1-beta1\AMD64;E:\CxCache\RazzleBuildTools.Corext.2.2.1-beta1\x86;E:\CxCache\RazzleBuildTools.Corext.2.2.1-beta1;E:\CxCache\.VisualCpp.Corext.3P_mxBih-F2mZSspUzWvPg\bin\x86;C:\tools\Python27\;C:\tools\Python27\Scripts;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.7\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI\wbin;C:\Program Files (x86)\Magellan Toolset 4.75\;C:\Users\wenbwa\AppData\Local\Temp\pipelinetools;C:\tools\Junction\;C:\tools\Gow\bin;C:\tools\nodejs\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\tools\;C:\Users\wenbwa\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Microsoft Emulator Manager\1.0\;C:\Program Files\Git\cmd;e:\ClientGoldEnlistment;C:\Users\wenbwa\AppData\Roaming\npm;C:\Users\wenbwa\AppData\Local\atom\bin;C:\tools\VSCode\bin;;E:\CxCache\Perl.Corext.5.10.0.2\x86;E:\CxCache\Perl.Corext.5.10.0.2\x86\bin;E:\CxCache\Python.Corext.2.6.150;E:\CxCache\Python.Corext.2.6.150\Lib\site-packages\pywin32_system32;E:\CxCache\IronPython.Corext.2.6.1003;
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PATH_0 = e:\src\AdsUCM\.corext\gen\InPath;C:\Users\wenbwa\AppData\Local\devconsole\packages\DevConsole.Commandline\5.0.20;E:\CxCache\DotNetFxGAC.Corext.4.5.3\v4.0.30319;
+PATH_1 = E:\CxCache\Corext.Build.1.2.8\InPath;PLACEHOLDER_COMPILERS;E:\CxCache\.WindowsSdk.Corext.o_CryOz-4ksYddnb34Br_A\bin\x64;E:\CxCache\.WindowsSdk.Corext.o_CryOz-4ksYddnb34Br_A\bin\x86;
+PATH_2 = E:\CxCache\MsBuild.Corext.14.0.23107.11\Path;E:\CxCache\Corext.Tools.3.0.0\AMD64;E:\CxCache\Corext.Tools.3.0.0\x86;E:\CxCache\Corext.Tools.3.0.0\scripts;E:\CxCache\Corext.SourceControl.Sd.1.0.3\tools\path1st;E:\CxCache\SourceDepot.Corext.4.8.17925.1\AMD64;E:\CxCache\SourceDepot.Corext.4.8.17925.1\scripts;E:\CxCache\SourceDepot.Corext.4.8.17925.1\x86;E:\CxCache\Perl.Corext.5.10.0.2\x86\bin;E:\CxCache\RazzleBuildTools.Corext.2.2.1-beta1\AMD64;E:\CxCache\RazzleBuildTools.Corext.2.2.1-beta1\x86;E:\CxCache\RazzleBuildTools.Corext.2.2.1-beta1;
+PATH_ONLY = E:\CxCache\.VisualCpp.Corext.3P_mxBih-F2mZSspUzWvPg\bin\x86;
+PERL5LIB = ;E:\CxCache\Perl.Corext.5.10.0.2\x86\lib;E:\CxCache\Perl.Corext.5.10.0.2\local\lib;E:\CxCache\RazzleBuildTools.Corext.2.2.1-beta1\PostBuildScripts;E:\CxCache\RazzleBuildTools.Corext.2.2.1-beta1\perllib;e:\src\AdsUCM\Private\Engineering\TestAutomation\Perl\Lib
+PERL_BINARY_PATH = E:\CxCache\Perl.Corext.5.10.0.2\x86\bin\perl.exe
+PkgAzure_Corext = E:\CxCache\Azure.Corext.2.7.1
+PkgCodeSign_CloudBuild = E:\CxCache\CodeSign.CloudBuild.1.0.10
+PkgCodeSign_Corext = E:\CxCache\CodeSign.Corext.3.0.0.6
+PkgCorext_URT = E:\CxCache\Corext.URT.2.0.0
+PkgDotNetFxRefAssemblies_Corext_2_0_2 = E:\CxCache\DotNetFxRefAssemblies.Corext.2.0.2
+PkgGitSD_Corext = E:\CxCache\.PortableGit.Corext.pd8XKfDw8kAyKk_n3ubmhQ
+PkgIronPython_Corext = E:\CxCache\IronPython.Corext.2.6.1003
+PkgLBA_Corext = E:\CxCache\LBA.Corext.5.5.1031.3
+PkgLsBuild_Corext = E:\CxCache\LSBuild.Corext.6.12.4929.2
+PkgLsBuild_Corext_6_12 = E:\CxCache\LSBuild.Corext.6.12.4929.2
+PkgMagellan_Studio = E:\CxCache\Magellan.Studio.Bing.4.75.4003
+PkgMsBuildVer = 14.0.23107.11
+PkgMsBuild_Corext = E:\CxCache\MsBuild.Corext.14.0.23107.11
+PkgNetFxSDK_Corext = E:\CxCache\NetFxSDK.Corext.4.6.0
+PkgNUnit_Corext = E:\CxCache\NUnit.Corext.2.4.1
+PkgOACR_Corext = E:\CxCache\.OACR.Corext.iczWpqTl2iQx2mzrPDZWHQ
+PkgOACR_OnCorext = E:\CxCache\.OACR.Corext.iczWpqTl2iQx2mzrPDZWHQ
+PkgOdd_Corext = E:\CxCache\Odd.Corext.2.7.3.6
+PkgPerl_Corext = E:\CxCache\Perl.Corext.5.10.0.2
+PkgPython_Corext = E:\CxCache\Python.Corext.2.6.150
+PkgRuby_Corext = E:\CxCache\Ruby.Corext.1.8.6
+PkgSignTool_Corext = E:\CxCache\SignTool.Corext.6.2.7962
+PkgSourceDepot_Corext = E:\CxCache\SourceDepot.Corext.4.8.17925.1
+PkgTeamFoundation_Corext = E:\CxCache\TeamFoundation.Corext.11.0.50727
+PkgTeamFoundation_Wrap_Corext = E:\CxCache\TeamFoundation.Wrap.Corext.1.0.1
+PkgVisualCppVer = 14.0.23506
+PkgVisualCpp_Corext = E:\CxCache\.VisualCpp.Corext.3P_mxBih-F2mZSspUzWvPg
+PkgVisualStudio_PerformanceTools_Corext = E:\CxCache\VisualStudio.PerformanceTools.Corext.12.0.30501.0
+PkgVisualStudio_Sdk_Corext = E:\CxCache\VisualStudio.Sdk.Corext.12.0.0.2
+PkgVisualStudio_TeamSystem_DB_Corext = E:\CxCache\VisualStudio.TeamSystem.DB.Corext.10.0.0.1
+PkgVisualStudio_UnitTest_Corext = E:\CxCache\VisualStudio.UnitTest.Corext.11.0.1
+PkgVisualStudio_UnitTest_Corext_10 = E:\CxCache\VisualStudio.UnitTest.Corext.10.0.0
+PkgVisualStudio_UnitTest_Corext_9 = E:\CxCache\VisualStudio.UnitTest.Corext.9.0.0
+PkgWinDbg_Corext = E:\CxCache\WinDbg.Corext.6.13.4
+PkgWindowsSdkVer = 10.0.10240
+PkgWindowsSdk_Corext = E:\CxCache\.WindowsSdk.Corext.o_CryOz-4ksYddnb34Br_A
+PkgXna_Corext_4_0 = E:\CxCache\XNA.Corext.4.0.0.1
+POST_SOURCES_MAKEFILE = e:\src\AdsUCM\tools\build\makefiles\post_sources_makefile.def
+PREFAST_ANALYSIS_OPTIONS = WX-
+PREFAST_VERSION = 2.1
+PROCESSOR_ARCHITECTURE = x86
+PROCESSOR_ARCHITEW6432 = AMD64
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 44 Stepping 2, GenuineIntel
+PROCESSOR_LEVEL = 6
+PROCESSOR_REVISION = 2c02
+PRODUCTION_TARGET = e:\src\AdsUCM\target\distrib
+PROFILE_TARGET = e:\src\AdsUCM\target\distrib\profile
+ProgramData = C:\ProgramData
+ProgramFiles = C:\Program Files (x86)
+ProgramFiles(x86) = C:\Program Files (x86)
+ProgramW6432 = C:\Program Files
+PROMPT = $P$G
+PSModulePath = C:\windows\system32\WindowsPowerShell\v1.0\Modules\;c:\Program Files\Microsoft Security Client\MpProvider\;C:\Program Files (x86)\Microsoft SDKs\Azure\PowerShell\ServiceManagement;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\PowerShell\Modules\
+PUBLIC = C:\Users\Public
+PUBLIC_ROOT = E:\CxCache\RazzleBuildTools.Corext.2.2.1-beta1\Public
+RAZZLEDATAPATH = e:\src\AdsUCM\data
+RAZZLETOOLPATH = E:\CxCache\RazzleBuildTools.Corext.2.2.1-beta1
+RedboxRoot = E:\CxCache\MsBuild.Corext.14.0.23107.11
+SDCLIENT = WENBWA-WORK-AdsUCM-1
+SDDIFF = windiff.exe
+SDEDITOR = notepad.exe
+SdkScenario = win10
+SDK_VERSION = Win10
+SDPOPTIONS = "pack -Of0;"
+SDPORT = BGIT-SDSearch:7763
+SDPROXY = efunsdproxy:1237
+SDROOT = e:\src\AdsUCM
+SDUDIFF = windiff.exe
+SDUSER = FAREAST\wenbwa
+SDVRAID = http://vstfbing:8080/tfs/web/wi.aspx?id=#
+SDXROOT = e:\src\AdsUCM
+SeparateIntermediatesFromSource = false
+SHELL_PROCESSOR_ARCHITECTURE = AMD64
+SmartCardGointToExpireNextDetection = 08/05/2015 03:32:22
+SRCSRV_SYSTEM = sd
+StaticAnalysisToolsVersion = 12
+SysInternalsPath = E:\CxCache\SysInternals.Corext.2012.12.6
+SystemDrive = C:
+SystemRoot = C:\windows
+SYSTEMTYPE = other
+TEMP = C:\Users\wenbwa\AppData\Local\Temp
+TEMP_ALLOW_MANAGED_CODE_DEFAULT_REFERENCES = 1
+TEMP_ALLOW_PLACEFILE = 1
+TEMP_ALLOW_TARGETPATH = 1
+TMP = C:\Users\wenbwa\AppData\Local\Temp
+ToastSettings = {"collection":[{"SolutionName":"DirectAccess cannot connect","SolutionStatus":false,"ChangedBy":"Msi"},{"SolutionName":"Get updates for security compliance","SolutionStatus":false,"ChangedBy":"Msi"},{"SolutionName":"Wireless driver update","SolutionStatus":true,"ChangedBy":"Msi"},{"SolutionName":"Outlook Multiple Process running","SolutionStatus":false,"ChangedBy":"Msi"},{"SolutionName":"Outlook Not Responding","SolutionStatus":false,"ChangedBy":"Msi"},{"SolutionName":"Outlook Corrupted Credentials","SolutionStatus":false,"ChangedBy":"Msi"},{"SolutionName":"Draft Email Protection","SolutionStatus":false,"ChangedBy":"Msi"},{"SolutionName":"Pending Reboot","SolutionStatus":false,"ChangedBy":"Msi"},{"SolutionName":"Password Reset","SolutionStatus":false,"ChangedBy":"Msi"},{"SolutionName":"IE Recommended Settings","SolutionStatus":false,"ChangedBy":"Msi"},{"SolutionName":"Unable to connect to wireless LAN","SolutionStatus":false,"ChangedBy":"Msi"},{"SolutionName":"Video driver update","SolutionStatus":false,"ChangedBy":"Msi"},{"SolutionName":"Smart Card certificate is going to expire soon","SolutionStatus":false,"ChangedBy":"Elevated tool. Ver:1.144.12.1"},{"SolutionName":"Microsoft Lync Add-in icon","SolutionStatus":false,"ChangedBy":"Msi"},{"SolutionName":"Smart Card has expired or multiple certificates","SolutionStatus":false,"ChangedBy":"Elevated tool. Ver:1.144.12.1"},{"SolutionName":"Microsoft Skype for Business Add-in icon","SolutionStatus":false,"ChangedBy":"TM.Initialization"},{"SolutionName":"Virtual Smart Card Certificate Troubleshooter","SolutionStatus":true,"ChangedBy":"TM.Initialization"}]}
+TRACER_ENABLED = 1
+TRACE_FORMAT_PATH = e:\src\AdsUCM\TraceFormat
+UATDATA = C:\Windows\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77
+URTPATH = C:\windows\Microsoft.Net\Framework\v2.0.50727;E:\CxCache\Corext.URT.2.0.0\v2.0.50727
+URTPATH_2_0 = C:\windows\Microsoft.Net\Framework\v2.0.50727;E:\CxCache\Corext.URT.2.0.0\v2.0.50727
+URTRUN_INSTALLROOT = C:\windows\Microsoft.Net\Framework
+URTTARGET_2_0 = C:\windows\Microsoft.Net\Framework\v2.0.50727
+URTTARGET_3_5 = E:\CxCache\Corext.URT.2.0.0\v3.5
+URT_VER = 2.0
+URT_VER_1_2 = v2.0.50727
+URT_VER_2_0 = v2.0.50727
+UseCorextOutputPath = false
+USERDNSDOMAIN = FAREAST.CORP.MICROSOFT.COM
+USERDOMAIN = FAREAST
+USERDOMAIN_ROAMINGPROFILE = FAREAST
+USERNAME = wenbwa
+USERPROFILE = C:\Users\wenbwa
+USE_ASMID = 0
+USE_VC14NOLTCG = 1
+VerNum = 6
+VisualStudioVersion = 14.0
+VS110COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\
+VS120COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\
+VS140COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\
+VSSDK140Install = C:\Program Files (x86)\Microsoft Visual Studio 14.0\VSSDK\
+VsSdkInstall = E:\CxCache\VisualStudio.Sdk.Corext.10.0.3\
+WENBWA_TOOLS = C:\tools
+windir = C:\windows
+WINDOWS_URT_ROOT = C:\windows\Microsoft.Net\Framework
+XNAGSv4 = E:\CxCache\XNA.Corext.4.0.0.1\
+_args =  /v:diag Test.proj
+_BUILDBRANCH = adsucm
+_defaultBuildArch = amd64
+_elevated = 1
+_NOLIBCMT = 1
+_NTBINDIR = e:\src\AdsUCM
+_NTDEVELOPER = e:\src\AdsUCM\private\developer\wenbwa
+_NTDRIVE = e:
+_NTROOT = \src\AdsUCM
+_NTTREE = e:\src\AdsUCM
+_NT_SYMBOL_PATH = symsrv*symsrv.dll*\\symbols\symbols
+_SHELLPATH = C:\tools\Python27\;C:\tools\Python27\Scripts;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.7\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI\wbin;C:\Program Files (x86)\Magellan Toolset 4.75\;C:\Users\wenbwa\AppData\Local\Temp\pipelinetools;C:\tools\Junction\;C:\tools\Gow\bin;C:\tools\nodejs\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\tools\;C:\Users\wenbwa\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Microsoft Emulator Manager\1.0\;C:\Program Files\Git\cmd;e:\ClientGoldEnlistment;C:\Users\wenbwa\AppData\Roaming\npm;C:\Users\wenbwa\AppData\Local\atom\bin;C:\tools\VSCode\bin;
+__TSDataExtDir = E:\CxCache\VisualStudio.TeamSystem.DB.Corext.10.0.0.1\Extensions
+
+Project "F:\code\MSBuild\Test.proj" on node 1 (default targets).
+Initial Properties:
+__TSDataExtDir = E:\CxCache\VisualStudio.TeamSystem.DB.Corext.10.0.0.1\Extensions
+_args =  /v:diag Test.proj
+_BUILDBRANCH = adsucm
+_defaultBuildArch = amd64
+_elevated = 1
+_NOLIBCMT = 1
+_NT_SYMBOL_PATH = symsrv*symsrv.dll*\\symbols\symbols
+_NTBINDIR = e:\src\AdsUCM
+_NTDEVELOPER = e:\src\AdsUCM\private\developer\wenbwa
+_NTDRIVE = e:
+_NTROOT = \src\AdsUCM
+_NTTREE = e:\src\AdsUCM
+_SHELLPATH = C:\tools\Python27\;C:\tools\Python27\Scripts;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.7\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI\wbin;C:\Program Files (x86)\Magellan Toolset 4.75\;C:\Users\wenbwa\AppData\Local\Temp\pipelinetools;C:\tools\Junction\;C:\tools\Gow\bin;C:\tools\nodejs\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\tools\;C:\Users\wenbwa\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Microsoft Emulator Manager\1.0\;C:\Program Files\Git\cmd;e:\ClientGoldEnlistment;C:\Users\wenbwa\AppData\Roaming\npm;C:\Users\wenbwa\AppData\Local\atom\bin;C:\tools\VSCode\bin;
+ALLOW_DLL_REFERENCES = 1
+ALLUSERSPROFILE = C:\ProgramData
+APPDATA = C:\Users\wenbwa\AppData\Roaming
+AppendClientGoldToPath = 0
+BASEDIR = e:\src\AdsUCM
+BATCH_NMAKE = 1
+BINPLACE_OVERRIDE = e:\src\AdsUCM\build\binplace2.cmd
+BINPLACE_SILENT_POSTBUILD = 1
+BINPLACE2_INCLUDE_FILE = e:\src\AdsUCM\build\binplace2.inc
+bldPropSrc = target\distrib
+BUILD_COREXT = 1
+BUILD_GENERATE_ASSEMBLY_IDENTITY = 1
+BUILD_MSBUILD_PROGRAM = E:\CxCache\MsBuild.Corext.14.0.23107.11\Path\MSBuild.cmd
+BUILD_MULTIPROCESSOR = 1
+BUILD_PATH = e:\src\AdsUCM\build\path1st;e:\src\AdsUCM\tools\path1st;e:\src\AdsUCM\.corext\gen\InPath;C:\Users\wenbwa\AppData\Local\devconsole\packages\DevConsole.Commandline\5.0.20;E:\CxCache\DotNetFxGAC.Corext.4.5.3\v4.0.30319;E:\CxCache\Corext.Build.1.2.8\InPath;PLACEHOLDER_COMPILERS;E:\CxCache\.WindowsSdk.Corext.o_CryOz-4ksYddnb34Br_A\bin\x64;E:\CxCache\.WindowsSdk.Corext.o_CryOz-4ksYddnb34Br_A\bin\x86;E:\CxCache\MsBuild.Corext.14.0.23107.11\Path;E:\CxCache\Corext.Tools.3.0.0\AMD64;E:\CxCache\Corext.Tools.3.0.0\x86;E:\CxCache\Corext.Tools.3.0.0\scripts;E:\CxCache\Corext.SourceControl.Sd.1.0.3\tools\path1st;E:\CxCache\SourceDepot.Corext.4.8.17925.1\AMD64;E:\CxCache\SourceDepot.Corext.4.8.17925.1\scripts;E:\CxCache\SourceDepot.Corext.4.8.17925.1\x86;E:\CxCache\Perl.Corext.5.10.0.2\x86\bin;E:\CxCache\RazzleBuildTools.Corext.2.2.1-beta1\AMD64;E:\CxCache\RazzleBuildTools.Corext.2.2.1-beta1\x86;E:\CxCache\RazzleBuildTools.Corext.2.2.1-beta1;C:\windows;C:\windows\System32;C:\windows\System32\WindowsPowerShell\v1.0;;E:\CxCache\Python.Corext.2.6.150;
+BUILD_POST_PROCESS = {Performing postbuild steps...}E:\CxCache\RazzleBuildTools.Corext.2.2.1-beta1\buildpost.cmd
+BUILD_PRE_PROCESS = {Performing prebuild steps...}E:\CxCache\RazzleBuildTools.Corext.2.2.1-beta1\build_pre_process.cmd
+BUILD_USE_DBB = 1
+BUILDNUKE_KEEP =  e:\src\AdsUCM\.corext\gen
+CECHO_LEGACY = 1
+CheckinWizard = 1
+CLIENTGOLD_PATH1ST = e:\ClientGoldEnlistment\path1st
+CLIENTGOLDDIRECTORY = e:\ClientGoldEnlistment
+CodeFlowProject = bing
+CommonProgramFiles = C:\Program Files (x86)\Common Files
+CommonProgramW6432 = C:\Program Files\Common Files
+COMPILER_VERSION = VC14
+COMPUTERNAME = WENBWA-WORK
+ComSpec = C:\windows\system32\cmd.exe
+COPYCMD =  /Y
+COREXT_BUILD_OPTIONS = -w -g -F -e
+COREXT_BUILD_SKIPDUPLICATEIMPORTNAME = 1
+COREXT_BUILDTYPES_DEBUG = debug oacr vulcan verify cover doxygen
+COREXT_BUILDTYPES_OTHER = clean nuke recycle version prefix4 prefix-ps tree sourceindex setversion test
+COREXT_BUILDTYPES_RETAIL = retail release cover
+COREXT_SOURCECONTROL = sd
+COREXT_URT_ROOT = E:\CxCache\Corext.URT.2.0.0
+COREXT_VERSION_FILE = version.htm
+COREXT_VERSION_PATH = e:\src\AdsUCM\public\inc\
+CorextAutomationRoot = E:\CxCache\BuildTracker.OnCorext.1.0.3\content\automation\v2
+corextbranch = adsucm
+COREXTBRANCH_PREFIX = //depot/dev/
+CoreXTConfig = e:\src\AdsUCM\.corext
+CorextExeVersion = 5.0.0.0
+CorextSetupComplete = 1
+CoreXTTools = E:\CxCache\Corext.Tools.3.0.0
+Coverage = C:\ProgramData\Coverage
+DBB_CDGPATH = e:\src\AdsUCM\public\internal\deps
+DetectBuildChangeCRC = 1047727c
+DetectBuildChangeFile = "C:\Users\wenbwa\AppData\Local\Temp\WENBWA-WORK-AdsUCM-1.tmp.crc.37bc426b-95a3-482d-9e52-8dbc6cf7d501.txt"
+DevPath = ;E:\CxCache\MsBuild.Corext.14.0.23107.11\v14.0\bin;E:\CxCache\MsBuild.Corext.14.0.23107.11\Extensions\Override\etc\TaskCopy;E:\CxCache\VisualStudio.TeamSystem.DB.Corext.10.0.0.1;E:\CxCache\VisualStudio.TeamSystem.DB.Corext.10.0.0.1\x86
+EnableNuGetPackageRestore = true
+EnlistmentRoot = e:\src\AdsUCM
+EnvironmentConfig = E:\CxCache\MsBuild.Corext.14.0.23107.11\Environment.props
+EnvironmentCustomPropsFile = E:\CxCache\MsBuild.Corext.14.0.23107.11\Environment.CoreXT.props
+EXTPATH = e:\src\AdsUCM\public\ext
+FinalOutput = \myassembly.dll
+FP_NO_HOST_CHECK = NO
+HOMEDRIVE = C:
+HOMEPATH = \Users\wenbwa
+inetroot = e:\src\AdsUCM
+IRONPYTHONPATH = ;E:\CxCache\Python.Corext.2.6.150\Lib;
+LBA_SCRIPT_ROOT = e:\src\AdsUCM\tools\loctools\lba\scripts
+LBACMD = E:\CxCache\LBA.Corext.5.5.1031.3\lba.exe
+LEGACY_VARIANT = 140
+LOCALAPPDATA = C:\Users\wenbwa\AppData\Local
+LOGONSERVER = \\BJW-FE-DC-03
+MASTER_VERSION_FILE = e:\src\AdsUCM\public\inc\bldver.h
+MSBUILD_BUILD_ARGS =  /clp:ShowCommandline /m:4 /nr:false  /clp:Summary
+MSBUILD_PROCESSES = 4
+MSBUILD_REUSE = false
+MSBuildAssemblyVersion = 14.0
+MSBuildBinPath = E:\CxCache\MsBuild.Corext.14.0.23107.11\v14.0\bin
+MSBuildExtensionsPath = C:\Program Files (x86)\MSBuild
+MSBuildExtensionsPath32 = C:\Program Files (x86)\MSBuild
+MSBuildExtensionsPath64 = C:\Program Files\MSBuild
+MSBuildFrameworkToolsPath = E:\CxCache\MsBuild.Corext.14.0.23107.11\v14.0\sdk
+MSBuildLoadMicrosoftTargetsReadOnly = true
+MsBuildLocalGacPath = E:\CxCache\DotNetFxGAC.Corext.4.5.3\v4.0.30319
+MSBuildNodeCount = 1
+MSBuildPath = C:\Program Files (x86)\MSBuild\14.0\Bin
+MSBuildProgramFiles32 = C:\Program Files (x86)
+MSBuildProjectDefaultTargets = FakeBuild
+MSBuildProjectDirectory = F:\code\MSBuild
+MSBuildProjectDirectoryNoRoot = code\MSBuild
+MSBuildProjectExtension = .proj
+MSBuildProjectFile = Test.proj
+MSBuildProjectFullPath = F:\code\MSBuild\Test.proj
+MSBuildProjectName = Test
+MSBuildStartupDirectory = F:\code\MSBuild
+MsBuildToolset = 140
+MSBuildToolsPath = E:\CxCache\MsBuild.Corext.14.0.23107.11\v14.0\bin
+MSBuildToolsPath_140 = E:\CxCache\MsBuild.Corext.14.0.23107.11\v14.0\bin
+MSBuildToolsVersion = 14.0
+MSBuildUserExtensionsPath = C:\Users\wenbwa\AppData\Local\Microsoft\MSBuild
+MultipleSmartCardsNextDetection = 08/01/2015 03:32:22
+NO_DEPENDENCY_CHECK = 1
+NO_OACR = 1
+NTMAKEENV = E:\CxCache\RazzleBuildTools.Corext.2.2.1-beta1
+NugetMachineInstallRoot = E:\CxCache
+NUMBER_OF_PROCESSORS = 4
+OACR_DEFAULT_PROJECT = CoreXT_SWI
+OACR_INC = E:\CxCache\.OACR.Corext.iczWpqTl2iQx2mzrPDZWHQ\AMD64\inc
+OACR_PATHS = E:\CxCache\.OACR.Corext.iczWpqTl2iQx2mzrPDZWHQ\AMD64
+OACR_ROOT = E:\CxCache\.OACR.Corext.iczWpqTl2iQx2mzrPDZWHQ\AMD64
+OACR_SDL_VERSION = 6.0
+OACR_TEMP = e:\src\AdsUCM\OACRTemp
+OACR_VER = 3.6.30318.1
+OACR_VERSION_ROOT = E:\CxCache\.OACR.Corext.iczWpqTl2iQx2mzrPDZWHQ
+OACRINI = e:\src\AdsUCM\tools\oacr\oacr.ini
+OACRMINBARINI = E:\CxCache\.OACR.Corext.iczWpqTl2iQx2mzrPDZWHQ\custom\sdl\v6.0\oacrminbar.ini
+OBJECT_ROOT = e:\src\AdsUCM
+OS = Windows_NT
+OSVERMAJOR = 6
+OSVERMINOR = 3
+PACKAGE_CACHE_DIRECTORY = E:\PackageCache
+PackageAddressGenDir = e:\src\AdsUCM\.corext\gen
+Path = e:\ClientGoldEnlistment\path1st;e:\src\AdsUCM\build\path1st;e:\src\AdsUCM\tools\path1st;e:\src\AdsUCM\.corext\gen\InPath;C:\Users\wenbwa\AppData\Local\devconsole\packages\DevConsole.Commandline\5.0.20;E:\CxCache\DotNetFxGAC.Corext.4.5.3\v4.0.30319;E:\CxCache\Corext.Build.1.2.8\InPath;PLACEHOLDER_COMPILERS;E:\CxCache\.WindowsSdk.Corext.o_CryOz-4ksYddnb34Br_A\bin\x64;E:\CxCache\.WindowsSdk.Corext.o_CryOz-4ksYddnb34Br_A\bin\x86;E:\CxCache\MsBuild.Corext.14.0.23107.11\Path;E:\CxCache\Corext.Tools.3.0.0\AMD64;E:\CxCache\Corext.Tools.3.0.0\x86;E:\CxCache\Corext.Tools.3.0.0\scripts;E:\CxCache\Corext.SourceControl.Sd.1.0.3\tools\path1st;E:\CxCache\SourceDepot.Corext.4.8.17925.1\AMD64;E:\CxCache\SourceDepot.Corext.4.8.17925.1\scripts;E:\CxCache\SourceDepot.Corext.4.8.17925.1\x86;E:\CxCache\Perl.Corext.5.10.0.2\x86\bin;E:\CxCache\RazzleBuildTools.Corext.2.2.1-beta1\AMD64;E:\CxCache\RazzleBuildTools.Corext.2.2.1-beta1\x86;E:\CxCache\RazzleBuildTools.Corext.2.2.1-beta1;E:\CxCache\.VisualCpp.Corext.3P_mxBih-F2mZSspUzWvPg\bin\x86;C:\tools\Python27\;C:\tools\Python27\Scripts;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.7\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI\wbin;C:\Program Files (x86)\Magellan Toolset 4.75\;C:\Users\wenbwa\AppData\Local\Temp\pipelinetools;C:\tools\Junction\;C:\tools\Gow\bin;C:\tools\nodejs\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\tools\;C:\Users\wenbwa\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Microsoft Emulator Manager\1.0\;C:\Program Files\Git\cmd;e:\ClientGoldEnlistment;C:\Users\wenbwa\AppData\Roaming\npm;C:\Users\wenbwa\AppData\Local\atom\bin;C:\tools\VSCode\bin;;E:\CxCache\Perl.Corext.5.10.0.2\x86;E:\CxCache\Perl.Corext.5.10.0.2\x86\bin;E:\CxCache\Python.Corext.2.6.150;E:\CxCache\Python.Corext.2.6.150\Lib\site-packages\pywin32_system32;E:\CxCache\IronPython.Corext.2.6.1003;
+PATH_0 = e:\src\AdsUCM\.corext\gen\InPath;C:\Users\wenbwa\AppData\Local\devconsole\packages\DevConsole.Commandline\5.0.20;E:\CxCache\DotNetFxGAC.Corext.4.5.3\v4.0.30319;
+PATH_1 = E:\CxCache\Corext.Build.1.2.8\InPath;PLACEHOLDER_COMPILERS;E:\CxCache\.WindowsSdk.Corext.o_CryOz-4ksYddnb34Br_A\bin\x64;E:\CxCache\.WindowsSdk.Corext.o_CryOz-4ksYddnb34Br_A\bin\x86;
+PATH_2 = E:\CxCache\MsBuild.Corext.14.0.23107.11\Path;E:\CxCache\Corext.Tools.3.0.0\AMD64;E:\CxCache\Corext.Tools.3.0.0\x86;E:\CxCache\Corext.Tools.3.0.0\scripts;E:\CxCache\Corext.SourceControl.Sd.1.0.3\tools\path1st;E:\CxCache\SourceDepot.Corext.4.8.17925.1\AMD64;E:\CxCache\SourceDepot.Corext.4.8.17925.1\scripts;E:\CxCache\SourceDepot.Corext.4.8.17925.1\x86;E:\CxCache\Perl.Corext.5.10.0.2\x86\bin;E:\CxCache\RazzleBuildTools.Corext.2.2.1-beta1\AMD64;E:\CxCache\RazzleBuildTools.Corext.2.2.1-beta1\x86;E:\CxCache\RazzleBuildTools.Corext.2.2.1-beta1;
+PATH_ONLY = E:\CxCache\.VisualCpp.Corext.3P_mxBih-F2mZSspUzWvPg\bin\x86;
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PERL_BINARY_PATH = E:\CxCache\Perl.Corext.5.10.0.2\x86\bin\perl.exe
+PERL5LIB = ;E:\CxCache\Perl.Corext.5.10.0.2\x86\lib;E:\CxCache\Perl.Corext.5.10.0.2\local\lib;E:\CxCache\RazzleBuildTools.Corext.2.2.1-beta1\PostBuildScripts;E:\CxCache\RazzleBuildTools.Corext.2.2.1-beta1\perllib;e:\src\AdsUCM\Private\Engineering\TestAutomation\Perl\Lib
+PkgAzure_Corext = E:\CxCache\Azure.Corext.2.7.1
+PkgCodeSign_CloudBuild = E:\CxCache\CodeSign.CloudBuild.1.0.10
+PkgCodeSign_Corext = E:\CxCache\CodeSign.Corext.3.0.0.6
+PkgCorext_URT = E:\CxCache\Corext.URT.2.0.0
+PkgDotNetFxRefAssemblies_Corext_2_0_2 = E:\CxCache\DotNetFxRefAssemblies.Corext.2.0.2
+PkgGitSD_Corext = E:\CxCache\.PortableGit.Corext.pd8XKfDw8kAyKk_n3ubmhQ
+PkgIronPython_Corext = E:\CxCache\IronPython.Corext.2.6.1003
+PkgLBA_Corext = E:\CxCache\LBA.Corext.5.5.1031.3
+PkgLsBuild_Corext = E:\CxCache\LSBuild.Corext.6.12.4929.2
+PkgLsBuild_Corext_6_12 = E:\CxCache\LSBuild.Corext.6.12.4929.2
+PkgMagellan_Studio = E:\CxCache\Magellan.Studio.Bing.4.75.4003
+PkgMsBuild_Corext = E:\CxCache\MsBuild.Corext.14.0.23107.11
+PkgMsBuildVer = 14.0.23107.11
+PkgNetFxSDK_Corext = E:\CxCache\NetFxSDK.Corext.4.6.0
+PkgNUnit_Corext = E:\CxCache\NUnit.Corext.2.4.1
+PkgOACR_Corext = E:\CxCache\.OACR.Corext.iczWpqTl2iQx2mzrPDZWHQ
+PkgOACR_OnCorext = E:\CxCache\.OACR.Corext.iczWpqTl2iQx2mzrPDZWHQ
+PkgOdd_Corext = E:\CxCache\Odd.Corext.2.7.3.6
+PkgPerl_Corext = E:\CxCache\Perl.Corext.5.10.0.2
+PkgPython_Corext = E:\CxCache\Python.Corext.2.6.150
+PkgRuby_Corext = E:\CxCache\Ruby.Corext.1.8.6
+PkgSignTool_Corext = E:\CxCache\SignTool.Corext.6.2.7962
+PkgSourceDepot_Corext = E:\CxCache\SourceDepot.Corext.4.8.17925.1
+PkgTeamFoundation_Corext = E:\CxCache\TeamFoundation.Corext.11.0.50727
+PkgTeamFoundation_Wrap_Corext = E:\CxCache\TeamFoundation.Wrap.Corext.1.0.1
+PkgVisualCpp_Corext = E:\CxCache\.VisualCpp.Corext.3P_mxBih-F2mZSspUzWvPg
+PkgVisualCppVer = 14.0.23506
+PkgVisualStudio_PerformanceTools_Corext = E:\CxCache\VisualStudio.PerformanceTools.Corext.12.0.30501.0
+PkgVisualStudio_Sdk_Corext = E:\CxCache\VisualStudio.Sdk.Corext.12.0.0.2
+PkgVisualStudio_TeamSystem_DB_Corext = E:\CxCache\VisualStudio.TeamSystem.DB.Corext.10.0.0.1
+PkgVisualStudio_UnitTest_Corext = E:\CxCache\VisualStudio.UnitTest.Corext.11.0.1
+PkgVisualStudio_UnitTest_Corext_10 = E:\CxCache\VisualStudio.UnitTest.Corext.10.0.0
+PkgVisualStudio_UnitTest_Corext_9 = E:\CxCache\VisualStudio.UnitTest.Corext.9.0.0
+PkgWinDbg_Corext = E:\CxCache\WinDbg.Corext.6.13.4
+PkgWindowsSdk_Corext = E:\CxCache\.WindowsSdk.Corext.o_CryOz-4ksYddnb34Br_A
+PkgWindowsSdkVer = 10.0.10240
+PkgXna_Corext_4_0 = E:\CxCache\XNA.Corext.4.0.0.1
+POST_SOURCES_MAKEFILE = e:\src\AdsUCM\tools\build\makefiles\post_sources_makefile.def
+PREFAST_ANALYSIS_OPTIONS = WX-
+PREFAST_VERSION = 2.1
+PROCESSOR_ARCHITECTURE = x86
+PROCESSOR_ARCHITEW6432 = AMD64
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 44 Stepping 2, GenuineIntel
+PROCESSOR_LEVEL = 6
+PROCESSOR_REVISION = 2c02
+PRODUCTION_TARGET = e:\src\AdsUCM\target\distrib
+PROFILE_TARGET = e:\src\AdsUCM\target\distrib\profile
+ProgramData = C:\ProgramData
+ProgramFiles = C:\Program Files (x86)
+ProgramW6432 = C:\Program Files
+PROMPT = $P$G
+PSModulePath = C:\windows\system32\WindowsPowerShell\v1.0\Modules\;c:\Program Files\Microsoft Security Client\MpProvider\;C:\Program Files (x86)\Microsoft SDKs\Azure\PowerShell\ServiceManagement;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\PowerShell\Modules\
+PUBLIC = C:\Users\Public
+PUBLIC_ROOT = E:\CxCache\RazzleBuildTools.Corext.2.2.1-beta1\Public
+RAZZLEDATAPATH = e:\src\AdsUCM\data
+RAZZLETOOLPATH = E:\CxCache\RazzleBuildTools.Corext.2.2.1-beta1
+RedboxRoot = E:\CxCache\MsBuild.Corext.14.0.23107.11
+SDCLIENT = WENBWA-WORK-AdsUCM-1
+SDDIFF = windiff.exe
+SDEDITOR = notepad.exe
+SDK_VERSION = Win10
+SdkScenario = win10
+SdkToolsPath = .
+SDPOPTIONS = "pack -Of0;"
+SDPORT = BGIT-SDSearch:7763
+SDPROXY = efunsdproxy:1237
+SDROOT = e:\src\AdsUCM
+SDUDIFF = windiff.exe
+SDUSER = FAREAST\wenbwa
+SDVRAID = http://vstfbing:8080/tfs/web/wi.aspx?id=#
+SDXROOT = e:\src\AdsUCM
+SeparateIntermediatesFromSource = false
+SHELL_PROCESSOR_ARCHITECTURE = AMD64
+SmartCardGointToExpireNextDetection = 08/05/2015 03:32:22
+SRCSRV_SYSTEM = sd
+StaticAnalysisToolsVersion = 12
+SysInternalsPath = E:\CxCache\SysInternals.Corext.2012.12.6
+SystemDrive = C:
+SystemRoot = C:\windows
+SYSTEMTYPE = other
+TEMP = C:\Users\wenbwa\AppData\Local\Temp
+TEMP_ALLOW_MANAGED_CODE_DEFAULT_REFERENCES = 1
+TEMP_ALLOW_PLACEFILE = 1
+TEMP_ALLOW_TARGETPATH = 1
+TMP = C:\Users\wenbwa\AppData\Local\Temp
+ToastSettings = {"collection":[{"SolutionName":"DirectAccess cannot connect","SolutionStatus":false,"ChangedBy":"Msi"},{"SolutionName":"Get updates for security compliance","SolutionStatus":false,"ChangedBy":"Msi"},{"SolutionName":"Wireless driver update","SolutionStatus":true,"ChangedBy":"Msi"},{"SolutionName":"Outlook Multiple Process running","SolutionStatus":false,"ChangedBy":"Msi"},{"SolutionName":"Outlook Not Responding","SolutionStatus":false,"ChangedBy":"Msi"},{"SolutionName":"Outlook Corrupted Credentials","SolutionStatus":false,"ChangedBy":"Msi"},{"SolutionName":"Draft Email Protection","SolutionStatus":false,"ChangedBy":"Msi"},{"SolutionName":"Pending Reboot","SolutionStatus":false,"ChangedBy":"Msi"},{"SolutionName":"Password Reset","SolutionStatus":false,"ChangedBy":"Msi"},{"SolutionName":"IE Recommended Settings","SolutionStatus":false,"ChangedBy":"Msi"},{"SolutionName":"Unable to connect to wireless LAN","SolutionStatus":false,"ChangedBy":"Msi"},{"SolutionName":"Video driver update","SolutionStatus":false,"ChangedBy":"Msi"},{"SolutionName":"Smart Card certificate is going to expire soon","SolutionStatus":false,"ChangedBy":"Elevated tool. Ver:1.144.12.1"},{"SolutionName":"Microsoft Lync Add-in icon","SolutionStatus":false,"ChangedBy":"Msi"},{"SolutionName":"Smart Card has expired or multiple certificates","SolutionStatus":false,"ChangedBy":"Elevated tool. Ver:1.144.12.1"},{"SolutionName":"Microsoft Skype for Business Add-in icon","SolutionStatus":false,"ChangedBy":"TM.Initialization"},{"SolutionName":"Virtual Smart Card Certificate Troubleshooter","SolutionStatus":true,"ChangedBy":"TM.Initialization"}]}
+ToolsPath = c:\Tools
+TRACE_FORMAT_PATH = e:\src\AdsUCM\TraceFormat
+TRACER_ENABLED = 1
+UATDATA = C:\Windows\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77
+URT_VER = 2.0
+URT_VER_1_2 = v2.0.50727
+URT_VER_2_0 = v2.0.50727
+URTPATH = C:\windows\Microsoft.Net\Framework\v2.0.50727;E:\CxCache\Corext.URT.2.0.0\v2.0.50727
+URTPATH_2_0 = C:\windows\Microsoft.Net\Framework\v2.0.50727;E:\CxCache\Corext.URT.2.0.0\v2.0.50727
+URTRUN_INSTALLROOT = C:\windows\Microsoft.Net\Framework
+URTTARGET_2_0 = C:\windows\Microsoft.Net\Framework\v2.0.50727
+URTTARGET_3_5 = E:\CxCache\Corext.URT.2.0.0\v3.5
+USE_ASMID = 0
+USE_VC14NOLTCG = 1
+UseCorextOutputPath = false
+USERDNSDOMAIN = FAREAST.CORP.MICROSOFT.COM
+USERDOMAIN = FAREAST
+USERDOMAIN_ROAMINGPROFILE = FAREAST
+USERNAME = wenbwa
+USERPROFILE = C:\Users\wenbwa
+VerNum = 6
+VisualStudioVersion = 14.0
+VS110COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\
+VS120COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\
+VS140COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\
+VSSDK140Install = C:\Program Files (x86)\Microsoft Visual Studio 14.0\VSSDK\
+VsSdkInstall = E:\CxCache\VisualStudio.Sdk.Corext.10.0.3\
+VsToolsPath = C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v14.0
+WENBWA_TOOLS = C:\tools
+windir = C:\windows
+WINDOWS_URT_ROOT = C:\windows\Microsoft.Net\Framework
+XNAGSv4 = E:\CxCache\XNA.Corext.4.0.0.1\
+
+Initial Items:
+Compile
+    file1.d.cs
+    file2.cs
+CppFile
+    one.cs
+        Culture = Fr
+    two.cs
+        Culture = Fr
+CSFile
+    one.cs
+        Culture = Fr
+    two.cs
+        Culture = Fr
+MyItem
+    myItemTest
+TSFiles
+    file1.ts
+    file2.ts
+    file3.ts
+
+Building with tools version "14.0".
+Target "FakeBuild: (TargetId:2)" in project "F:\code\MSBuild\Test.proj" (entry point):
+Using "Message" task from assembly "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "Message" (TaskId:2)
+  Task Parameter:Text='' is haha (TaskId:2)
+  '' is haha (TaskId:2)
+Done executing task "Message". (TaskId:2)
+Using "CallTarget" task from assembly "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "CallTarget" (TaskId:3)
+  Task Parameter:Targets=CopyOutputToTarget (TaskId:3)
+Target "CopyOutputToTarget: (TargetId:3)" in project "F:\code\MSBuild\Test.proj" (target "FakeBuild" depends on it):
+Skipping target "CopyOutputToTarget" because it has no outputs.
+Though the target has declared its outputs, the output specification only references empty properties and/or empty item lists.
+Done building target "CopyOutputToTarget" in project "Test.proj".: (TargetId:3)
+Target "TestNamespace: (TargetId:4)" in project "F:\code\MSBuild\Test.proj" (target "FakeBuild" depends on it):
+Task "Message" (TaskId:4)
+  Task Parameter:Text=files:  (TaskId:4)
+  files:  (TaskId:4)
+Done executing task "Message". (TaskId:4)
+Done building target "TestNamespace" in project "Test.proj".: (TargetId:4)
+Done executing task "CallTarget". (TaskId:3)
+Task "Message" (TaskId:5)
+  Task Parameter:Text=Building \myassembly.dll using the tools at c:\Tools... (TaskId:5)
+  Building \myassembly.dll using the tools at c:\Tools... (TaskId:5)
+Done executing task "Message". (TaskId:5)
+Task "Message" (TaskId:6)
+  Task Parameter:Text=file1.d.cs, file2.cslist (TaskId:6)
+  file1.d.cs, file2.cslist (TaskId:6)
+Done executing task "Message". (TaskId:6)
+Done building target "FakeBuild" in project "Test.proj".: (TargetId:2)
+Done Building Project "F:\code\MSBuild\Test.proj" (default targets).
+Deferred Messages
+
+Detailed Build Summary
+======================
+     (TaskId:0)
+  
+  ============================== Build Hierarchy (IDs represent configurations) =====================================================
+  Id                  : Exclusive Time   Total Time   Path (Targets)
+  ----------------------------------------------------------------------------------------------------------------------------------- (TaskId:0)
+  0                   : 0.416s           0.416s       F:\code\MSBuild\Test.proj ()  (TaskId:0)
+  
+  ============================== Node Utilization (IDs represent configurations) ====================================================
+  Timestamp:            1        Duration   Cumulative
+  ----------------------------------------------------------------------------------------------------------------------------------- (TaskId:0)
+  635930384047472680:   0        0.421s     0.421s ######## (TaskId:0)
+  -----------------------------------------------------------------------------------------------------------------------------------
+  Utilization:          100.0    Average Utilization: 100.0 (TaskId:0)
+
+Project Performance Summary:
+      203 ms  F:\code\MSBuild\Test.proj                  1 calls
+
+Target Performance Summary:
+        1 ms  TestNamespace                              1 calls
+        7 ms  CopyOutputToTarget                         1 calls
+      123 ms  FakeBuild                                  1 calls
+
+Task Performance Summary:
+       32 ms  Message                                    4 calls
+       36 ms  CallTarget                                 1 calls
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.53

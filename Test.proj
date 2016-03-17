@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="FakeBuild" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    
+	<PropertyGroup>
+        <FinalOutput>$(BIN_PATH)\myassembly.dll</FinalOutput>
+        <ToolsPath Condition=" '$(ToolsPath)' == '' ">c</ToolsPath>
+    </PropertyGroup>
+
+	<PropertyGroup>
+		<VsToolsPath Condition="'$(VsToolsPath)' == ''">C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v14.0</VsToolsPath>
+	</PropertyGroup>
+  
+	<UsingTask TaskName="TypeScript.Tasks.VsTsc" AssemblyFile="$(VSToolsPath)\TypeScript\TypeScript.tasks.dll" />
+	
+	<PropertyGroup>
+        <ToolsPath Condition=" '$(ToolsPath)' == 'C' ">$(ToolsPath):\Tools</ToolsPath>
+    </PropertyGroup>
+	
+	<ItemGroup>
+		<Compile Include = "file1.d.cs" />
+		<Compile Include = "file2.cs" />
+		<MyItem Include = "myItemTest" />
+	</ItemGroup>
+	
+	<ItemGroup>
+		<CSFile Include="one.cs;two.cs">
+			<Culture>Fr</Culture>
+		</CSFile>
+		<ExcludeFiles Include="*.d.cs" />
+		<CppFile Include = "@(CSFile)" Exclude = "@(ExcludeFiles)" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<TSFiles Include="file1.ts"></TSFiles>
+		<TSFiles Include="file2.ts"></TSFiles>
+		<TSFiles Include="file3.ts"></TSFiles>
+	</ItemGroup>
+		
+	<Target Name="CopyOutputToTarget" Condition = "'$(BuildingInsideVisualStudio)' != 'true'" Inputs="@(TSFiles)" Outputs="@(TSFiles1)">
+		<Message Text = "call CopyOutputToTarget" />
+	</Target>
+	
+	<Target Name="TestNamespace" AfterTargets="CopyOutputToTarget">
+		<Message Text = "files: @(TSFiles1)"/>
+	</Target>
+  
+    <Target Name="FakeBuild">
+		<Message Text = "'$(BuildingInsideVisualStudio)' is haha" />
+		<CallTarget Targets="CopyOutputToTarget"/>
+        <Message Text = "Building $(FinalOutput) using the tools at $(ToolsPath)..."/>
+		<Message Text = "@(Compile, ', ')list"/>
+    </Target>
+	
+	<Target Name="BeforeBuild1">
+		<Message Text="MSBuildProjectName = $(MSBuildProjectName)"/>
+	</Target>
+	
+</Project>
